@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         EditText userInput = (EditText) findViewById(R.id.q6_a1);
 //            Editable userInputFormatted = userInput.getText();
         String userAnswer = userInput.getText().toString().toLowerCase();
-        String correctAnswer = "owl";
+        String correctAnswer = "green";
         //compare user input to correct answer
         if (userAnswer.equals(correctAnswer)) {
             scoreQ6 += 1;
