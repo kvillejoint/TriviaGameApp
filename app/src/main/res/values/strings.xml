@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Harry Potter Trivia Game</string>
+    <!-- String resources for XML file -->
+    <!-- Text for hint on name field [CHAR LIMIT=30] -->
+    <string name="name">Name</string>
+
+    <!-- Header text for title [CHAR LIMIT=none] -->
+    <string name="title">Harry Potter Trivia Game</string>
+
+    <!-- Description text for title [CHAR LIMIT=none] -->
+    <string name="description">How well do you know your favorite wizard?!</string>
+
+    <!-- Description string text for question 1 [CHAR LIMIT=none] -->
+    <string name="question1">1. What is the name of Harry Potter\'s pet?</string>
+    <string name="Hedwig" id="q1_a1">Hedwig</string>
+    <string name="Scabbers" id="q1_a2">Scabbers</string>
+    <string name="Dobby" id="q1_a3">Dobby</string>
+
+    <!-- Description string text for question 2 [CHAR LIMIT=none] -->
+    <string name="question2">2. Who Harry\'s smartest friend?</string>
+    <string name="Ron" id="q2_a1">Ron</string>
+    <string name="Hermoine" id="q2_a2">Hermoine</string>
+    <string name="Sirius" id="q2_a3">Sirius</string>
+
+    <!-- Description string text for question 3 [CHAR LIMIT=none] -->
+    <string name="question3">3. In what town was Harry born?</string>
+    <string name="Godrics_Hollow" id="q3_a1">Godric\'s Hollow</string>
+    <string name="London" id="q3_a2">London</string>
+    <string name="Little_Whinging"  id="q3_a3">Little Whinging</string>
+
+    <!-- Description string text for question 4 [CHAR LIMIT=none] -->
+    <string name="question4">4. What street does his family live on?</string>
+    <string name="Grimmauld_Place" id="q4_a1">Grimmauld Place"</string>
+    <string name="Privet_Drive" id="q4_a2">Privet Drive</string>
+
+    <!-- Description string text for question 5 [CHAR LIMIT=none] -->
+    <string name="question5">5. Who is Harry Potter\'s the greatest enemy?</string>
+    <string name="Tom_Riddle" id="q5_a1">Tom Riddle</string>
+    <string name="You_Know_Who" id="q5_a2">You-Know-Who"</string>
+    <string name="Lord_Voldemort" id="q5_a3">Lord Voldemort</string>
+    <string name="All_of_the_above" id="q5_a4">All of the above</string>
+
+    <!-- Description string text for question 6 [CHAR LIMIT=none] -->
+    <string name="question6">6. What color are Harry Potter\'s eyes?</string>
+    <string name="placeholder">Enter answer here</string>
+    <string name="q6_text_input" id="q6_a1">Type answer here</string>
+
+    <!-- Text for Submit button [CHAR LIMIT=20] -->
+    <string name="submit">Submit</string>
+</resources>
