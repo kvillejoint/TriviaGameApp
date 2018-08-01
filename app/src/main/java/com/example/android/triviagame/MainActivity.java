@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         validateTextField();
 
         //Call calculateGrade function to totalScore
-//        calculateGrade();
+        calculateGrade();
 
         //Display toast message with results
         Toast.makeText (this, "Congrats " + nameInput + ", You scored " + totalScore + " out of 6!", Toast.LENGTH_LONG).show();
