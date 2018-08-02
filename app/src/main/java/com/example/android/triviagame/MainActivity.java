@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Add up user score for all questions
     public int calculateGrade(int scoreQ1, int scoreQ2, int scoreQ3, int scoreQ4, int scoreQ5, int scoreQ6) {
-        int totalScore = scoreQ1 + scoreQ2 + scoreQ3 + scoreQ4 + scoreQ5 + scoreQ6;
+        totalScore = scoreQ1 + scoreQ2 + scoreQ3 + scoreQ4 + scoreQ5 + scoreQ6;
         return totalScore;
     }
 
