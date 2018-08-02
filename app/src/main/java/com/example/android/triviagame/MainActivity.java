@@ -34,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Calculate score for quiz questions
-//    @Override
-    public void onRadioButtonClicked (View view) {
+     public void onRadioButtonClicked (View view) {
         //Check if button is selected
         boolean checked = ((RadioButton) view).isChecked();
         //List of correct Radio buttons and IDs
@@ -93,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
         if (Checkbox1.isChecked() && Checkbox2.isChecked() && Checkbox3.isChecked() && Checkbox4.isChecked()) {
             scoreQ5 += 1;
         }
-//        break;
     }
 
     //Question 6
