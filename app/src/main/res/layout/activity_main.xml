@@ -65,7 +65,8 @@
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup1">
 
                 <RadioButton
                     android:id="@+id/q1_a1"
@@ -100,7 +101,8 @@
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup2">
 
                 <RadioButton
                     android:id="@+id/q2_a1"
@@ -135,7 +137,8 @@
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/radioGroup3">
 
                 <RadioButton
                     android:id="@+id/q3_a1"
@@ -171,7 +174,8 @@
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup4">
 
                 <RadioButton
                     android:id="@+id/q4_a1"

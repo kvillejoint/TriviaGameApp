@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.TextView;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
@@ -17,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
     int scoreQ6 = 0;
     int totalScore = 0;
 
+    private RadioGroup radioGroup;
+    private RadioButton hedwig, scabbers, dobby, ron, hermoine, sirius, godrics_hollow, london, little_whining, grimmauld_place, privet_drive;
+    private Button button;
+    private TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,14 +34,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Calculate score for quiz questions
+//    @Override
     public void onRadioButtonClicked (View view) {
         //Check if button is selected
         boolean checked = ((RadioButton) view).isChecked();
         //List of correct Radio buttons and IDs
-//         RadioButton rightAnswerOne = findViewById(R.id.q1_a1);
-//         RadioButton rightAnswerTwo = findViewById(R.id.q2_a2);
-//         RadioButton rightAnswerThree = findViewById(R.id.q3_a1);
-//         RadioButton rightAnswerFour = findViewById(R.id.q4_a2);
+//         rightAnswerOne = (RadioButton) findViewById(R.id.q1_a1);
+//         rightAnswerTwo = (RadioButton) findViewById(R.id.q2_a2);
+//         rightAnswerThree = (RadioButton) findViewById(R.id.q3_a1);
+//         rightAnswerFour = (RadioButton) findViewById(R.id.q4_a2);
         //Cases for when correct answer is selected
         //Adds 1 point where correct radio button is clicked. Adds zero points for wrong answers
         switch (view.getId()) {
@@ -117,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         validateTextField();
 
         //Call calculateGrade function to totalScore
-        calculateGrade();
+        calculateGrade(scoreQ1, scoreQ2, scoreQ3, scoreQ4, scoreQ5, scoreQ6);
 
         //Display toast message with results
         Toast.makeText (this, "Congrats " + nameInput + ", You scored " + totalScore + " out of 6!", Toast.LENGTH_LONG).show();
