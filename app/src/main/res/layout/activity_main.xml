@@ -64,7 +64,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Hedwig" />
 
                 <RadioButton
@@ -72,14 +71,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Scabbers" />
 
                 <RadioButton
                     android:id="@+id/q1_a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Dobby" />
             </RadioGroup>
 
@@ -100,7 +97,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Ron" />
 
                 <RadioButton
@@ -108,14 +104,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Hermoine" />
 
                 <RadioButton
                     android:id="@+id/q2_a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Sirius" />
             </RadioGroup>
 
@@ -136,7 +130,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Godrics_Hollow" />
 
                 <RadioButton
@@ -144,7 +137,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/London" />
 
                 <RadioButton
@@ -152,7 +144,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Little_Whinging" />
             </RadioGroup>
 
@@ -173,7 +164,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Grimmauld_Place" />
 
                 <RadioButton
@@ -181,7 +171,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:onClick="onRadioButtonClicked"
                     android:text="@string/Privet_Drive" />
 
             </RadioGroup>
@@ -197,7 +186,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/Tom_Riddle" />
 
             <CheckBox
@@ -211,14 +199,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/Lord_Voldemort" />
 
             <CheckBox
                 android:id="@+id/q5_a4"
                 android:layout_width="141dp"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/All_of_the_above" />
 
             <TextView

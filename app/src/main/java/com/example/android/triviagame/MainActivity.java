@@ -23,7 +23,17 @@ public class MainActivity extends AppCompatActivity {
     int totalScore = 0;
 
     private RadioGroup radioGroup;
-    private RadioButton hedwig, scabbers, dobby, ron, hermoine, sirius, godrics_hollow, london, little_whining, grimmauld_place, privet_drive;
+    private RadioButton hedwig;
+    private RadioButton scabbers;
+    private RadioButton dobby;
+    private RadioButton ron;
+    private RadioButton hermoine;
+    private RadioButton sirius;
+    private RadioButton godrics_hollow;
+    private RadioButton london;
+    private RadioButton little_whining;
+    private RadioButton grimmauld_place;
+    private RadioButton privet_drive;
     private Button button;
     private TextView textView;
 
@@ -37,11 +47,6 @@ public class MainActivity extends AppCompatActivity {
      public void onRadioButtonClicked (View view) {
         //Check if button is selected
         boolean checked = ((RadioButton) view).isChecked();
-        //List of correct Radio buttons and IDs
-//         rightAnswerOne = (RadioButton) findViewById(R.id.q1_a1);
-//         rightAnswerTwo = (RadioButton) findViewById(R.id.q2_a2);
-//         rightAnswerThree = (RadioButton) findViewById(R.id.q3_a1);
-//         rightAnswerFour = (RadioButton) findViewById(R.id.q4_a2);
         //Cases for when correct answer is selected
         //Adds 1 point where correct radio button is clicked. Adds zero points for wrong answers
         switch (view.getId()) {
@@ -84,12 +89,12 @@ public class MainActivity extends AppCompatActivity {
     }
     //Question 5
     public void onCheckboxClicked (View view) {
-        CheckBox Checkbox1 = findViewById(R.id.q5_a1);
-        CheckBox Checkbox2 = findViewById(R.id.q5_a2);
-        CheckBox Checkbox3 = findViewById(R.id.q5_a3);
-        CheckBox Checkbox4 = findViewById(R.id.q5_a4);
+        CheckBox checkBox1 = findViewById(R.id.q5_a1);
+        CheckBox checkBox2 = findViewById(R.id.q5_a2);
+        CheckBox checkBox3 = findViewById(R.id.q5_a3);
+        CheckBox checkBox4 = findViewById(R.id.q5_a4);
         //If all CheckBoxes are selected add 1 to score
-        if (Checkbox1.isChecked() && Checkbox2.isChecked() && Checkbox3.isChecked() && Checkbox4.isChecked()) {
+        if (checkBox1.isChecked() && checkBox2.isChecked() && checkBox3.isChecked() && checkBox4.isChecked()) {
             scoreQ5 += 1;
         }
     }
